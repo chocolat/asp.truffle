@@ -1,0 +1,12 @@
+(name [If … End if])
+
+(trigger
+    (tab ifelse))
+
+(only-in source.asp)
+
+(snippet [If %{1="condition"} Then
+	%{2="' true"}
+Else
+	%{3="' false"}
+End if])

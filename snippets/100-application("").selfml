@@ -1,0 +1,8 @@
+(name [Application("…")])
+
+(trigger
+    (tab app))
+
+(only-in source.asp)
+
+(snippet [Application("%{1}")])

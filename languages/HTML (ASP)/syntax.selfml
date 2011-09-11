@@ -1,0 +1,15 @@
+(root text.html.asp
+    (zone source.asp.embedded.html
+        (start
+            (regex <%=?
+                (0 punctuation.section.embedded.begin.asp)))
+        (end
+            (regex %>
+                (0 punctuation.section.embedded.end.asp)))
+        (subzones
+            (zone comment.line.apostrophe.asp
+                (match
+                    (regex [(').*?(?=%>)]
+                        (1 punctuation.definition.comment.asp))))
+            (include source.asp)))
+    (include text.html.basic))

@@ -1,0 +1,8 @@
+(name Response.Write)
+
+(trigger
+    (tab r.w))
+
+(only-in source.asp)
+
+(snippet [Response.Write ])

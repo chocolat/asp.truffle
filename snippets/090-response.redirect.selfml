@@ -1,0 +1,8 @@
+(name Response.Redirect)
+
+(trigger
+    (tab r.r))
+
+(only-in source.asp)
+
+(snippet [Response.Redirect(%{1="to"})])

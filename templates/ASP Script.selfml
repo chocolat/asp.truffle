@@ -1,0 +1,12 @@
+(name [ASP Script])
+
+(group.platform Misc)
+
+(group.principles ASP)
+
+(file.primary
+    (name default)
+    (filename default.asp)
+    (contents [<%
+
+%>]))

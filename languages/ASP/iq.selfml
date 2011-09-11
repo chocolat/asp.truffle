@@ -1,0 +1,11 @@
+(detector
+    (extension asa))
+
+(folding
+    (start [(?i)^\s*(Public|Private)?\s*(Class|Function|Sub|Property)\s*([a-zA-Z_]\w*)\s*(\(.*\)\s*)?$])
+    (stop [(?i)^\s*End (Class|Function|Sub|Property)\s*$]))
+
+(shell-variables
+    (TM_COMMENT_START '))
+
+(comment.line ')

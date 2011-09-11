@@ -1,0 +1,10 @@
+(name [While … Wend])
+
+(trigger
+    (tab while))
+
+(only-in source.asp)
+
+(snippet [While %{1="NOT %{2="condition"}"}
+	%{3="' body"}
+Wend])

@@ -1,0 +1,10 @@
+(name [For … in … Next])
+
+(trigger
+    (tab forin))
+
+(only-in source.asp)
+
+(snippet [For %{1="var"} in %{2="array"}
+	%{3="' body"}
+Next])

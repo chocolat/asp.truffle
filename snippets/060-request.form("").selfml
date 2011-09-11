@@ -1,0 +1,8 @@
+(name [Request.Form("…")])
+
+(trigger
+    (tab r.f))
+
+(only-in source.asp)
+
+(snippet [Request.Form("%{1="field"}")])

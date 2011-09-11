@@ -1,0 +1,11 @@
+(detector
+    (extension asp))
+
+(folding
+    (start [(<(?i:(head|table|div|style|script|ul|ol|form|dl))\b.*?>|\{)])
+    (stop [(</(?i:(head|table|div|style|script|ul|ol|form|dl))>|\})]))
+
+(in source.asp
+    (shell-variables
+        (TM_COMMENT_START '))
+    (comment.line '))

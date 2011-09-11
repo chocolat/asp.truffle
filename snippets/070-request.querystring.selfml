@@ -1,0 +1,8 @@
+(name Request.QueryString)
+
+(trigger
+    (tab r.q))
+
+(only-in source.asp)
+
+(snippet [Request.QueryString("%{1="name"}")])

@@ -1,0 +1,8 @@
+(name [Session("…")])
+
+(trigger
+    (tab sess))
+
+(only-in source.asp)
+
+(snippet [Session("%{1="whatever"}")])
